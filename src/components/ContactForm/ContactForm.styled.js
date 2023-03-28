@@ -14,19 +14,18 @@ export const Label = styled.label`
 `;
 
 export const InputStyled = styled(Field)`
-width: 100%;
+  width: 100%;
   border: none;
   height: 25px;
   font-size: 20px;
   border-bottom: 2px solid #6376af;
   outline: none;
-    padding-left: 10px;
-    ::placeholder {
+  padding-left: 10px;
+  ::placeholder {
     color: #6376af;
     font-size: 20px;
     font-style: italic;
   }
-}
 `;
 export const Button = styled.button`
   font-size: 1em;
@@ -35,7 +34,7 @@ export const Button = styled.button`
   border-radius: 4px;
   width: 132px;
   background-color: #6376af;
-  margin: 0 auto;
+
   cursor: pointer;
   color: #fff;
 `;
