@@ -4,7 +4,6 @@ import { useDispatch } from 'react-redux';
 import { Input, Label } from './Filter.styled';
 
 export const Filter = () => {
-  // const { filter } = useSelector(state => state.contacts);
   const dispatch = useDispatch();
 
   const handleFilter = ({ target: { value } }) => {
